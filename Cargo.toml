@@ -1,0 +1,16 @@
+[package]
+name = "fabric"
+version = "0.0.1"
+authors = ["Nils Mathieu <nils.mathieu.contact@gmail.com>"]
+description = "The Fabric Operating System"
+edition = "2021"
+
+[profile.release]
+lto = "fat"
+
+[workspace]
+members = ["lib"]
+
+[dependencies]
+fabric-sys = { path = "lib", default-features = false }
+bitflags = { version = "2", default-features = false }

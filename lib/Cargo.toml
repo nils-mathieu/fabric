@@ -1,0 +1,13 @@
+[package]
+name = "fabric-sys"
+version = "0.0.1"
+authors = ["Nils Mathieu <nils.mathieu.contact@gmail.com>"]
+edition = "2021"
+description = "Types shared between the kernel and userspace programs."
+
+[features]
+default = ["userland"]
+userland = []
+
+[dependencies]
+bitflags = { version = "2", default-features = false }
