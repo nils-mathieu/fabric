@@ -2,6 +2,8 @@
 
 Fabric is a x86_64 operating system written in Rust. It follows the philosophy of the [Exokernel](https://www.google.com/search?client=firefox-b-d&q=Exokernel&bshm=rime/1) popularized by the MIT experiment of the same name.
 
+It is mainly a learning project. It doesn't really have the ambition to become an actual operating system, or even kernel.
+
 # Features
 
 - System Calls
